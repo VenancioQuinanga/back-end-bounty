@@ -1,0 +1,77 @@
+.box{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 30em;
+}
+
+.box form{
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border: 1em solid #000;
+}
+
+fieldset{
+    border: 3px solid dodgerblue;
+}
+
+legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+}
+
+.inputBox{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.inputUser{
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    width: 100%;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+label{
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: dodgerblue;
+}
+
+#data_nascimento{
+    border: none;
+    font-size: 15px;
+    outline: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#submit{
+    background-image: linear-gradient(to right ,rgb(0,92,192),rgb(90,20,220));
+    border: none;
+    width: 90%;
+    height: 2em;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    border-radius: .2em;
+    margin-bottom: 1em;
+    margin-right: 1.4em;
+}
+
+#submit :hover{
+background-image: linear-gradient(to right , rgb(0,80,172),rgb(80,19,195));
+}

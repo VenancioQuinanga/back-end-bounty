@@ -1,0 +1,147 @@
+@media screen and (max-width:1200px) {
+    div.start{
+        padding-top: 19em !important;
+    }
+
+    div.context aside.price{
+        font-size: .8em !important;
+        margin-top: 1em;
+    }
+
+    div.context aside.text{
+        margin-top: 1em;
+    }
+}    
+
+@media screen and (max-width:1000px) {
+
+    nav ul{
+        display: none;
+    }
+
+    div.start{
+        padding-top: 13em !important;
+    }
+
+    div.context aside.price{
+        font-size: .8em !important;
+        margin-top: 1.2em;
+    }
+
+    div.context aside.text{
+        margin-top: .9em;
+    }
+
+    div.context aside.text p{
+        font-size: .6em !important;
+    }
+
+    div.context aside.text input.add{
+        font-size: .3em !important;
+    }
+
+    #wrapper{
+        width: 400px;
+        border-radius: 1em;
+    }
+
+    #wrapper h1{
+        font-size: 1em;
+    }
+
+    nav img{
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    nav ul{
+        display: none;
+    }
+
+    div.start{
+        padding-top: 7.5em !important;
+    }
+
+    div.context aside.price{
+        font-size: .8em !important;
+        margin-top: 6em;
+    }
+
+    div.context aside.text{
+        margin-top: 3em;
+    }
+
+    div.context aside.text p{
+        font-size: .6em !important;
+    }
+
+    div.context aside.text input.add{
+        font-size: .3em !important;
+    }
+
+    .element{
+        height: 310px !important;
+        font-size: .7em;
+    }
+
+    .prod img{
+        width: 80% !important;
+    }
+
+    #wrapper{
+        width: 300px;
+        border-radius: 1em;
+    }
+
+    #wrapper h1{
+        font-size: 1em;
+    }
+
+    nav img{
+        display: block;
+    }
+
+    table{
+        font-size: .9em !important;
+    }
+
+    .enterprise_details{
+        padding: 2em;
+        font-size: .5em;
+    }
+}
+
+@media screen and (max-width:425px) {
+    nav ul{
+        display: none;
+    }
+
+    nav img{
+        display: block;
+    }
+
+    div.start{
+        padding-top: 1em !important;
+    }
+
+    div.context aside.price{
+        margin-top: 3em;
+    }
+
+    div.context aside.text{
+        margin-top: 1em;
+    }
+
+    table tbody tr td img{
+        width: 90%;
+        padding: .5em;
+    }
+}
+
+@media screen and (max-width:320px) {
+    div.start{
+        padding-top: .3em !important;
+    }
+}    
